@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Mark Webber",
+        "avatarImgUrl": "/src/assets/images/avatar-mark-webber.webp",
+        "action": "reacted to your recent post",
+        "postTitle": "My first tournament today!",
+        "timestamp": "1m ago",
+        "read": false
+    },
+    {
+        "id": 2,
+        "name": "Angela Gray",
+        "avatarImgUrl": "/src/assets/images/avatar-angela-gray.webp",
+        "action": "followed you",
+        "timestamp": "5m ago",
+        "read": false
+    },
+    {
+        "id": 3,
+        "name": "Jacob Thompson",
+        "avatarImgUrl": "/src/assets/images/avatar-jacob-thompson.webp",
+        "action": "has joined your group",
+        "groupName": "Chess Club",
+        "timestamp": "1 day ago",
+        "read": false
+    },
+    {
+        "id": 4,
+        "name": "Rizky Hassanuddin",
+        "avatarImgUrl": "/src/assets/images/avatar-rizky-hasanuddin.webp",
+        "action": "sent you a private message",
+        "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "timestamp": "5 days ago",
+        "read": true
+    },
+    {
+        "id": 5,
+        "name": "Kimberly Smith",
+        "avatarImgUrl": "/src/assets/images/avatar-kimberly-smith.webp",
+        "action": "commented on your picture",
+        "postImgUrl": "/src/assets/images/image-chess.webp",
+        "timestamp": "1 week ago",
+        "read": true
+    },
+    {
+        "id": 6,
+        "name": "Nathan Peterson",
+        "avatarImgUrl": "/src/assets/images/avatar-nathan-peterson.webp",
+        "action": "reacted to your recent post",
+        "postTitle": "5 end-game strategies to increase your win rate",
+        "timestamp": "2 weeks ago",
+        "read": true
+    },
+    {
+        "id": 7,
+        "name": "Anna Kim",
+        "avatarImgUrl": "/src/assets/images/avatar-anna-kim.webp",
+        "action": "left the group",
+        "groupName": "Chess Club",
+        "timestamp": "2 weeks ago",
+        "read": true
+    }
+]
