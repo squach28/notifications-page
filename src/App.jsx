@@ -1,16 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Notification from './components/Notification'
+import notificationsFromJson from './assets/notifications.json'
 
 function App() {
-  const [notifications, setNotifications] = useState([])
+  const [notifications, setNotifications] = useState(notificationsFromJson)
   const numOfNotifications = notifications.filter(notification => !notification.read).length
-  useEffect(() => {
-    fetch('/src/assets/notifications.json')
-      .then(res => res.json())
-      .then(data => {
-        setNotifications(data)
-      })
-  }, [])
 
   const markAllAsRead = () => {
     const markedNotifications = notifications.map(notification => {
